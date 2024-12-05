@@ -53,7 +53,8 @@ video {
   }
   img {
     position: absolute;
-    transform: translate(1535px, -50px);
+    right: 35;
+    top: 35;
     width: 35px;
     height: 25.053px;
     flex-shrink: 0;
@@ -170,7 +171,7 @@ video {
   }
 }
 .separate {
-  width: 1920px;
+  width: 10020px;
   height: 2px;
   flex-shrink: 0;
   color: white;
@@ -197,7 +198,9 @@ video {
   }
   img {
     position: absolute;
-    transform: translate(670px, -660px);
+    margin-right: 5%;
+    top: 1300;
+    right: -125;
   }
 
   h2 {
@@ -270,6 +273,8 @@ video {
   color: #fff;
   width: 110%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   h1 {
     font-size: 24px;
@@ -345,4 +350,107 @@ video {
   flex-shrink: 0;
   position: absolute;
   right: -15%;
+}
+.bars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15%;
+  .bar {
+    width: 397px;
+    height: 5px;
+    border-radius: 6px;
+    background: #5c5c5c;
+  }
+
+  .is-active {
+    width: 397px;
+    height: 5px;
+    border-radius: 6px;
+    background: #ff9fd0;
+  }
+}
+
+.poets {
+  h3 {
+    color: var(--title, #ff9fd0);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 8.4px;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    margin-top: 8%;
+  }
+  .titre {
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .arrow-pink {
+    position: absolute;
+    transform: translate(1130px, -100px);
+  }
+}
+
+.contenu {
+  display: flex;
+  width: 309px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+  img {
+    border-radius: 10px;
+    height: 398px;
+    flex-shrink: 0;
+    align-self: stretch;
+    margin-bottom: 45px;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+  }
+  h2 {
+    color: var(--title, #ff9fd0);
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  h4 {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+    align-self: stretch;
+    margin-bottom: 50px;
+  }
+  .line {
+    background-color: #fff;
+    height: 1px;
+    align-self: stretch;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .bas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -40px;
+    gap: 25px;
+    img {
+      height: 26px;
+      border-radius: 0px;
+    }
+  }
 }
