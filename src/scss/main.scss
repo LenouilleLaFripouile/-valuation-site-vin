@@ -401,6 +401,7 @@ img {
 }
 
 .contenu {
+  overflow: hidden;
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -464,6 +465,7 @@ img {
 .oscar {
   img {
     margin-top: 55px;
+    
   }
 }
 .maxime {
@@ -769,7 +771,7 @@ footer {
     }
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .wine-card {
     .card {
       .content {
@@ -777,6 +779,11 @@ footer {
           gap: 7px;
         }
       }
+    }
+  }
+  .steps {
+    .col-12 {
+      gap: 7%;
     }
   }
 }
