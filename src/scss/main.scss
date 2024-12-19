@@ -903,3 +903,9 @@ a {
     right: 20;
   }
 }
+.button h5:hover {
+  color: #1a1a1a;
+}
+.button h5 {
+  transition: 0.5s;
+}
